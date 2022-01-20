@@ -1,4 +1,5 @@
-const URL_FOLDERS_FONTS= "http://cdn.jsdelivr.net/gh/rodrigolopez14/VanillaButton/public/Fonts";
+const URL_FOLDERS_FONTS= "https://raw.githubusercontent.com/rodrigolopez14/VanillaButton/main//public/Fonts";
+
 const FONTS = []
 FONTS.push({
 	family: "SEATBCN",
