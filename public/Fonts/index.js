@@ -1,4 +1,4 @@
-const URL_FOLDERS_FONTS= "https://raw.githubusercontent.com/rodrigolopez14/VanillaButton/main//public/Fonts";
+const URL_FOLDERS_FONTS= "https://raw.githubusercontent.com/rodrigolopez14/VanillaButton/main/public/Fonts";
 
 const FONTS = []
 FONTS.push({
