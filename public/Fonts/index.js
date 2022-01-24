@@ -93,6 +93,6 @@ FONTS.push({
 
 export async function loadFonts() {
 	const promisedFonts = FONTS.map(font => new FontFace (font.family,font.src,font.descriptors).load())
-    const fonts = await Promise.all(promisedFonts).then (r => r)
+    const fonts = await Promise.all(promisedFonts).then (r => r).catch (e => {console.log(e)})
 	fonts.forEach(font=> document.fonts.add(font))
 }
