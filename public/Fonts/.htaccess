@@ -1,5 +1,5 @@
 <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
   <IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "http://cdn.jsdelivr.net/gh/rodrigolopez14/VanillaButton/public/Font/"
+    Header set Access-Control-Allow-Origin "https://google.com"
   </IfModule>
 </FilesMatch>
